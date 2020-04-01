@@ -1,0 +1,91 @@
+
+.login__container {
+	@include grid-row();
+}
+
+.login__content {
+	padding: 15px;
+}
+
+.login__header {
+	display: flex;
+	margin-top: 45px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 120px;
+	&.mb50 {
+		margin-bottom: 50px;
+	}
+	img {
+		width: 180px;
+		margin-bottom: 25px;
+	}
+	p {
+		max-width: 400px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+}
+
+.login__hero--left {
+	width: 320px;
+	min-width: 320px;
+	h1 {
+		margin-bottom: 35px;
+	}
+}
+
+.login__hero {
+	display: flex;
+	justify-content: center;
+}
+
+.login__card {
+	margin-left: 50px;
+}
+
+.login__rm  {
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+.login__card {
+	width: 270px;
+	padding: 50px;
+	text-align: center;
+  height: 300px;
+  border-radius: 8px;
+	background-color: #c75875;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	button {
+		font-size: 26px;
+	}
+	h3 {
+		margin-top: 22px;
+		margin-bottom: 22px;
+	}
+}
+
+.login__card-img {
+	align-self: center;
+	background-color: #fff;
+	width: 66px;
+	height: 66px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.sign-in  {
+	margin-top: 10px;
+	
+	a {
+		text-decoration: underline;
+		color: #c75875!important;
+	}
+}

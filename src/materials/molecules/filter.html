@@ -1,0 +1,19 @@
+<button class="button white fbtn" data-toggle="{{data-toggle}}">{{text}}<img src="../../assets/toolkit/images/shape.svg" alt=""></button>
+<div class="filter" id="{{id}}" data-dropdown data-auto-focus="true">
+	<div class="filter-dropdown">
+		<div class="filter-dropdown__top">
+			<h5 class="gray bold">Filter with stories</h5>
+			<p class="pink">3 selected</p>
+		</div>
+		<div class="filter-dropdown__main">
+			{{#if radio}}
+				{{> radio}}
+			{{/if}}
+			{{#if checkbox}}
+				{{> checkbox}}
+			{{/if}}
+		</div>
+	</div>
+</div>
+
+

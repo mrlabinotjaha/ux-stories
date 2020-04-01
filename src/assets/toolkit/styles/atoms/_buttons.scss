@@ -1,0 +1,51 @@
+.button {
+ 	border-radius: 4px;
+ 	outline: none;
+  background-color: #c75875;
+  padding: 9px 13px;
+  margin-bottom: 0;
+  color: #fff;
+  &.full {
+    width: 100%;
+    padding: 13px;
+  }
+  &.smaller {
+    padding: 9px 7px!important;
+  }
+  &.white {
+  	background-color: rgba(255, 255, 255, 0.2);
+  	padding: 14px 13px;
+  	&:hover, &:focus {
+  		background-color: rgba(255, 255, 255, 0.2);
+  	}
+  }
+  &.whitest {
+    background-color: #fff;
+    color: #000;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+  &.naked {
+    background-color: transparent;
+    color: #a4a4a4;
+    border-color: #d3d9e5;
+    &:hover {
+      background-color: transparent;
+      color: #a4a4a4;
+      border-color: #d3d9e5;
+    }
+    &.pink {
+      border-color: #c75875;
+      color: #c75875;
+      font-weight: 500;
+    }
+  }
+  img, span {
+  	margin-left: 8px;
+  }
+  &:hover, &:focus {
+  	background-color: rgba(199, 88, 117, 0.7);
+  }
+}

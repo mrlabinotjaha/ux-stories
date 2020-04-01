@@ -1,0 +1,25 @@
+<div class="header {{classes}}">
+	<div class="container">
+		<div class="header__content">
+			{{> logo }}
+			{{#if main-nav }}
+				{{> nav}}
+				{{> profile-nav}}
+			{{/if}}
+			{{#if secondary-nav }}
+				<h4 class="pink bold header__back"><a href="#" class="flex ac"><img src="../../assets/toolkit/images/008-delete.svg" alt="">Back to profile</a></h4>
+				<div class="profile-nav">
+					<p class="light-gray"><a href="#">Upgrade</a></p>
+					<div class="profile-nav__img--content">
+						<a href="#" class="profile-nav__img" style="background-image: url('https://scontent.fprn1-1.fna.fbcdn.net/v/t1.0-1/p160x160/35988964_1041356179350456_5301902918050381824_n.jpg?_nc_cat=105&_nc_ht=scontent.fprn1-1.fna&oh=2142e132de1a494501a3fc90d51e365c&oe=5D4FB1D7')"></a>
+						<div class="profile-nav__dropdown"></div>
+					</div>
+				</div>
+			{{/if}}
+			{{#if third-nav }}
+				{{> nav}}
+				{{> profile-nav}}
+			{{/if}}
+		</div>
+	</div>
+</div>

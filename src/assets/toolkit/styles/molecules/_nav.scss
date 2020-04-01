@@ -1,0 +1,42 @@
+.nav {
+	display: flex;
+	align-items: center;
+	h5 {
+		margin-right: 33px;
+		min-height: 24px;
+		&:hover {
+			a {
+				color: #000;
+			}
+		}
+		&.active {
+			font-weight: 500;
+			border-bottom: 2px solid #000;
+			a {
+				color: #000;
+			}
+		}
+	}
+}
+
+.profile-nav {
+	display: flex;
+	align-items: center;
+	p {
+		margin-right: 33px;
+	}
+	.profile-nav__img {
+		background-size: contain;
+		background-position: center;
+		min-width: 36px;
+		display: inline-block;
+		height: 36px;
+		border: solid 1px #d3d9e5;
+		border-radius: 50%;
+		outline: none;
+	}
+}
+
+.container {
+	@include grid-row();
+}

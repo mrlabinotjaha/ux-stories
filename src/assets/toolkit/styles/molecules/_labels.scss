@@ -1,0 +1,24 @@
+.ux-label {
+	border-radius: 2px;
+  background-color: rgba(91, 93, 110, 0.12);
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  p {
+  	margin-right: 8px;
+  }
+  span {
+  	display: flex;
+  }
+  &.no-close {
+    p {
+      margin: 0;
+    }
+  	span {
+  		display: none;
+  	}
+  }
+  &.rounded {
+
+  }
+}

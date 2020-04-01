@@ -1,0 +1,49 @@
+{{#if sh-first}}
+<div class="secondary-header">
+	<div class="container">
+		<div class="secodary-header__content {{classes}}">
+			<div class="flex  ac">
+				<h2 class="white">Browse Stories</h2>
+				<span class="seperator"></span>
+				{{> search}}
+			</div>
+			<div class="flex">
+				{{> filter data-toggle="first" id="first" text="Filter with Categories" radio=true checkbox=false classes="opened"}}
+				{{> filter data-toggle="second" id="second" text="Filter with Stories" radio=false checkbox=true}}
+				{{> filter data-toggle="third" id="third"  text="Filter with Elements"}}				
+			</div>
+		</div>
+	</div>
+</div>
+{{/if}}
+
+{{#if sh-second}}
+	<div class="container">
+		<div class="secodary-header__content">
+		<div class="colored">
+			<div class="flex ac">
+				<h2 class="white">{{default text "First library"}}</h2>
+			</div>
+			<div class="flex ac">
+				<a href="#"><img src="../../assets/toolkit/images/edit.svg" alt=""></a>
+				{{> filter text="Filter with Categories"}}
+				{{> filter text="Filter with Stories"}}		
+			</div>
+		</div>
+	</div>
+</div>
+{{/if}}
+
+{{#if sh-third}}
+	<div class="container">
+		<div class="secodary-header__content">
+		<div class="colored">
+			<div class="flex ac">
+				{{> filter text="Filter with Categories"}}
+				{{> filter text="Filter with Stories"}}		
+				{{> filter text="Version of apps"}}		
+			</div>
+		</div>
+	</div>
+</div>
+{{/if}}

@@ -1,0 +1,41 @@
+.price {
+	padding-bottom: 50px;
+	.login__header {
+		img {
+			width: 45px;
+		}
+		h2 {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	.price-card {
+		margin: 0 15px;
+		width: 300px;
+		padding: 38px;
+		// height: 440px;
+		border-radius: 10px;
+		background-color: #f6f6f6;
+		h3 {
+			margin-bottom: 25px;
+		}
+		&.pink {
+			background-color: #c75875;
+		}
+	}
+}
+
+.price-card__options {
+	margin-top: 40px;
+	margin-bottom: 35px;
+	p {
+		span {
+			margin-right: 16px;
+		}
+		margin-bottom: 20px;
+	}
+}

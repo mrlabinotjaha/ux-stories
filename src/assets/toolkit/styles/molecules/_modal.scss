@@ -1,0 +1,44 @@
+.modal {
+  width: 368px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  outline: none;
+	.modal__title {
+		margin-bottom: 25px;
+	}
+	.button {
+		@include scut-padding(n 25px);
+		// margin-top: 20px;
+	}
+}	
+
+.reveal-overlay {
+	background-color: rgba(10, 10, 10, 0.75)!important;
+}
+
+.modal__form {
+	p {
+		margin-bottom: 15px;
+	}
+	margin-bottom: 25px;
+}
+
+.modal__content {
+	padding: 0px 34px;
+}
+
+.modal__img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-size: contain;
+	background-position: center;
+	margin-right: 15px;
+}
+
+.modal__upload {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

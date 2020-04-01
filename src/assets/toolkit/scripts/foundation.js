@@ -49,11 +49,11 @@ Triggers.init($, Foundation);
 // import { Drilldown } from '../../vendor/foundation-sites/js/foundation.drilldown';
 // Foundation.plugin(Drilldown, 'Drilldown');
 
-// import { Dropdown } from '../../vendor/foundation-sites/js/foundation.dropdown';
-// Foundation.plugin(Dropdown, 'Dropdown');
+import { Dropdown } from '../../vendor/foundation-sites/js/foundation.dropdown';
+Foundation.plugin(Dropdown, 'Dropdown');
 
-// import { DropdownMenu } from '../../vendor/foundation-sites/js/foundation.dropdownMenu';
-// Foundation.plugin(DropdownMenu, 'DropdownMenu');
+import { DropdownMenu } from '../../vendor/foundation-sites/js/foundation.dropdownMenu';
+Foundation.plugin(DropdownMenu, 'DropdownMenu');
 
 // import { Equalizer } from '../../vendor/foundation-sites/js/foundation.equalizer';
 // Foundation.plugin(Equalizer, 'Equalizer');
@@ -76,8 +76,8 @@ Triggers.init($, Foundation);
 // import { ResponsiveToggle } from '../../vendor/foundation-sites/js/foundation.responsiveToggle';
 // Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
 
-// import { Reveal } from '../../vendor/foundation-sites/js/foundation.reveal';
-// Foundation.plugin(Reveal, 'Reveal');
+import { Reveal } from '../../vendor/foundation-sites/js/foundation.reveal';
+Foundation.plugin(Reveal, 'Reveal');
 
 // import { Slider } from '../../vendor/foundation-sites/js/foundation.slider';
 // Foundation.plugin(Slider, 'Slider');

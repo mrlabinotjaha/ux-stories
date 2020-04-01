@@ -1,0 +1,14 @@
+.alert {
+	width: 320px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: #48cb9e;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #ffffff;
+  margin-bottom: 15px;
+  &.red {
+  	background-color: #fa6a63;
+  }
+}

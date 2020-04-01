@@ -1,0 +1,19 @@
+.results {
+
+}
+
+.results__content {
+	@include grid-col(12);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 15px 0px;
+	.results__results {
+		margin-right: 25px;
+	}
+	.ux-label {
+		margin-right: 15px;
+		margin-top: 7px;
+    margin-bottom: 7px
+	}
+}

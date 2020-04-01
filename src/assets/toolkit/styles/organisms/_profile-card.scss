@@ -1,0 +1,14 @@
+.profile-card {
+	width: 580px;
+  margin: 35px 0;
+	padding: 20px 40px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #eeeeee, #d8d8d8 58%);
+  button {
+  	align-self: flex-end;
+  	margin-bottom: 15px;
+  }
+}

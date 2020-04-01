@@ -1,0 +1,23 @@
+.search {
+	display: inline-flex;
+	align-items: center;
+	input {
+		margin-bottom: 0;
+		box-shadow: none;
+		border: none;
+		background-color: transparent;
+		font-size: 14px;
+	  line-height: 1.86;
+	  color: #ffffff;
+	  &::placeholder {
+	  	font-size: 14px;
+		  line-height: 1.86;
+		  color: #ffffff;
+	  }
+		&:focus, &:active {
+			box-shadow: none;
+			border: none;
+			background-color: transparent;
+		}
+	}
+}
